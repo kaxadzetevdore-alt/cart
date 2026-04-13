@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    gap: 1000px;
+}
+.main{
+    margin-top: 250px;
+}
+.main input{
+    width: 300px;
+    height: 30px;
+    border: none;
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main input:active{
+    border: 1px solid hsl(278, 68%, 11%);
+    transition: 0.4s;
+}
+#button{
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    font-weight: 500;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.dt{
+    display: flex;
+    gap: 40px;
+}
+.dt input{
+    width: 100px;
+}
+.main p{
+    margin: 0px;
+    font-size: 12px;
+    color: hsl(278, 68%, 11%);
+}
+.bg img{
+    position: absolute;
+}
+.card{
+    position: absolute;
+    top: 150px;
+    gap: 40px;
+}
+.card img{
+    width: 400px;
+    height: 200px;
+}
+.txt{
+    position: relative;
+    color: white;
+    left: 235px;
+    bottom: 435px;
+    font-size: 15px;
+
+}
+h2{
+    margin: 10px;
+}
+.txt1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+#logo{
+    width: 85px;
+    height: 45px;
+}
+#front{
+    margin-left: 200px;
+}
+#back{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+#pbck{
+    margin-top: 146px;
+    margin-left: 400px;
+}
+
+
+
+
+
+@media (max-width:768px){
+    .container{
+        flex-direction: column;
+        gap: 150px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    body{
+        overflow: visible;
+    }
+    #main-bg{
+        height: 250px;
+        width: 768px;
+    }
+    .card{
+        top: 20px;
+        left: -175px;
+    }
+    .cart{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cart img{
+        width: 350px;
+        height: 175px;
+    }
+    .txt{
+        margin-top: 270px;
+    }
+    #front{
+        margin-top: -74px;
+    }
+    #logo{
+        width: 60px;
+        height: 28px;
+    }
+    .txt h2{
+        font-size: 20px;
+    }
+    .txt1{
+        width: 300px;
+    }
+    #pbck{
+        margin-left: 350px;
+        margin-top: -199px;
+    }
+    .dt{
+        gap: 30px;
+    }
+}
