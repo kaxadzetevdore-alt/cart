@@ -103,9 +103,6 @@ h2{
         align-items: center;
         justify-content: center;
     }
-    body{
-        overflow: visible;
-    }
     #main-bg{
         height: 250px;
         width: 768px;
